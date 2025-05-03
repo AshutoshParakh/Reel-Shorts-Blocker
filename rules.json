@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": { "url": "https://www.youtube.com/" }
+      },
+      "condition": {
+        "regexFilter": "^https://www\\.youtube\\.com/shorts/.*",
+        "resourceTypes": ["main_frame"]
+      }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": { "url": "https://www.instagram.com/" }
+      },
+      "condition": {
+        "regexFilter": "^https://www\\.instagram\\.com/reels/.*",
+        "resourceTypes": ["main_frame"]
+      }
+    }
+  ]
+  
