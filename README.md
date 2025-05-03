@@ -18,5 +18,4 @@ A lightweight Chrome Extension that blocks **YouTube Shorts** and **Instagram Re
 3. Enable **Developer mode** (top-right toggle).
 4. Click **Load unpacked** and select the project folder.
 
-## 🛠️ Project Structure
 
